@@ -6,6 +6,9 @@ mkdir -p ~/.config
 
 current_dir=$(pwd)
 
+echo "=== Setup of Dotfiles ==="
+echo "Symlinking to dotfiles repository (${current_dir})"
+
 ln -sf "${current_dir}"/bashrc ~/.bashrc
 ln -sf "${current_dir}"/vimrc ~/.vimrc
 ln -sf "${current_dir}"/starship.toml ~/.config/starship.toml
