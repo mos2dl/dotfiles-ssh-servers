@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Description: displays info about dotfiles
+
+path_to_dotfiles="${HOME}/dotfiles-ssh-servers"
+number_of_file=$(ls ${path_to_dotfiles} | wc -l)
+today=$(date +%Y-%m-%d)
+
+echo "=== Dotfiles info ==="
+echo "User: $USER"
+echo "Dotfiles location: $path_to_dotfiles"
+echo "Files tracked: $number_of_files"
+echo "Date: $today"
+
