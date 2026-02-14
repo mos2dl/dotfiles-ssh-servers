@@ -4,7 +4,7 @@
 
 mkdir -p ~/.config
 
-ln -sf ./bashrc ~/.bashrc
-ln -sf ./vimrc ~/.vimrc
-ln -sf ./starship.toml ~/.config/starship.toml
+ln -sf $(pwd)/bashrc ~/.bashrc
+ln -sf $(pwd)/vimrc ~/.vimrc
+ln -sf $(pwd)/starship.toml ~/.config/starship.toml
 
